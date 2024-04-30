@@ -2,11 +2,11 @@ package tests
 
 import (
 	"encoding/hex"
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
-	typescomparable "github.com/bloxapp/ssv-spec/types/testingutils/comparable"
 	"github.com/pkg/errors"
+	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils"
+	typescomparable "github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils/comparable"
 	"github.com/stretchr/testify/require"
 	"reflect"
 	"testing"

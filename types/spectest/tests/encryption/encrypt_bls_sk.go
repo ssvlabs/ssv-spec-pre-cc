@@ -2,8 +2,8 @@ package encryption
 
 import (
 	"fmt"
-	"github.com/bloxapp/ssv-spec/types"
 	"github.com/herumi/bls-eth-go-binary/bls"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 // EncryptBLSSK tests encrypting a BLS private key

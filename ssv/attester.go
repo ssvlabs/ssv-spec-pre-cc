@@ -9,8 +9,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/go-bitfield"
 
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 type AttesterRunner struct {

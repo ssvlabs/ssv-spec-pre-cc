@@ -3,7 +3,7 @@ package qbft
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/bloxapp/ssv-spec/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 type MsgContainer struct {

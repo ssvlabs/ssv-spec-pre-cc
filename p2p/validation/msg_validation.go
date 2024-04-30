@@ -3,12 +3,12 @@ package validation
 import (
 	"context"
 
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/ssv"
-	"github.com/bloxapp/ssv-spec/types"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/pkg/errors"
+	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 // MsgValidatorFunc represents a message validator
