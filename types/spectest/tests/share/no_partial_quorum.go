@@ -1,7 +1,7 @@
 package share
 
 import (
-	"github.com/bloxapp/ssv-spec/types/testingutils"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils"
 )
 
 // NoPartialQuorum tests  msg with < unique f+1 signers

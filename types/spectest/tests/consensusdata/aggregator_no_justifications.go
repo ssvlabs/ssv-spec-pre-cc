@@ -1,6 +1,6 @@
 package consensusdata
 
-import "github.com/bloxapp/ssv-spec/types/testingutils"
+import "github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils"
 
 // AggregatorNoJustifications tests an invalid consensus data with no aggregator pre-consensus justifications
 func AggregatorNoJustifications() *ConsensusDataTest {

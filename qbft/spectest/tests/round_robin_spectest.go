@@ -1,10 +1,11 @@
 package tests
 
 import (
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
+	"github.com/stretchr/testify/require"
 )
 
 type RoundRobinSpecTest struct {

@@ -3,18 +3,18 @@ package validation
 import (
 	"context"
 
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/ssv"
-	"github.com/bloxapp/ssv-spec/types"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/pkg/errors"
+	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 // MsgValidatorFunc represents a message validator
 type MsgValidatorFunc = func(ctx context.Context, p peer.ID, msg *pubsub.Message) pubsub.ValidationResult
 
-// To-Do: better spec the intended Message Validation behavior. Issue #375: https://github.com/bloxapp/ssv-spec/issues/375
+// To-Do: better spec the intended Message Validation behavior. Issue #375: https://github.com/ssvlabs/ssv-spec-pre-cc/issues/375
 type MessageValidator interface {
 	ValidateSignedSSVMessage(runner ssv.Runner, signedSSVMessage *types.SignedSSVMessage) error
 	// Verifies the message's RSA signature with PKCSv1.5 encoding. Ref: https://datatracker.ietf.org/doc/html/rfc8017#section-8.2.2
