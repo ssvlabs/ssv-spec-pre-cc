@@ -4,7 +4,7 @@
 package types
 
 import (
-	spec "github.com/attestantio/go-eth2-client/spec/phase0"
+	spec "github.com/AKorpusenko/genesis-go-eth2-client/spec/phase0"
 	ssz "github.com/ferranbt/fastssz"
 )
 

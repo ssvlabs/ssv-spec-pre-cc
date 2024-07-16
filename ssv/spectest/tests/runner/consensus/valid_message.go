@@ -1,7 +1,7 @@
 package consensus
 
 import (
-	"github.com/attestantio/go-eth2-client/spec"
+	"github.com/AKorpusenko/genesis-go-eth2-client/spec"
 	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
 
 	"github.com/ssvlabs/ssv-spec-pre-cc/ssv/spectest/tests"

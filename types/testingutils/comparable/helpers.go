@@ -3,15 +3,16 @@ package comparable
 import (
 	"encoding/json"
 	"fmt"
-	spec2 "github.com/attestantio/go-eth2-client/spec"
-	ssz "github.com/ferranbt/fastssz"
-	"github.com/google/go-cmp/cmp"
-	"github.com/ssvlabs/ssv-spec-pre-cc/types"
-	"github.com/stretchr/testify/require"
 	"os"
 	"path/filepath"
 	"strings"
 	"testing"
+
+	spec2 "github.com/AKorpusenko/genesis-go-eth2-client/spec"
+	ssz "github.com/ferranbt/fastssz"
+	"github.com/google/go-cmp/cmp"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
+	"github.com/stretchr/testify/require"
 )
 
 func NoErrorEncoding(obj ssz.Marshaler) []byte {

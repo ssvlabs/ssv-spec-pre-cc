@@ -2,7 +2,8 @@ package types
 
 import (
 	"bytes"
-	spec "github.com/attestantio/go-eth2-client/spec/phase0"
+
+	spec "github.com/AKorpusenko/genesis-go-eth2-client/spec/phase0"
 	"github.com/ethereum/go-ethereum/common"
 	ssz "github.com/ferranbt/fastssz"
 	"github.com/herumi/bls-eth-go-binary/bls"

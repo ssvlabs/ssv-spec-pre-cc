@@ -1,11 +1,12 @@
 package consensusdataproposer
 
 import (
-	comparable2 "github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils/comparable"
 	reflect2 "reflect"
 	"testing"
 
-	"github.com/attestantio/go-eth2-client/spec"
+	comparable2 "github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils/comparable"
+
+	"github.com/AKorpusenko/genesis-go-eth2-client/spec"
 	"github.com/stretchr/testify/require"
 
 	"github.com/ssvlabs/ssv-spec-pre-cc/types"

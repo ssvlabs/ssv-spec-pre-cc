@@ -1,7 +1,7 @@
 package newduty
 
 import (
-	"github.com/attestantio/go-eth2-client/spec"
+	"github.com/AKorpusenko/genesis-go-eth2-client/spec"
 
 	"github.com/ssvlabs/ssv-spec-pre-cc/ssv/spectest/tests"
 	"github.com/ssvlabs/ssv-spec-pre-cc/types"

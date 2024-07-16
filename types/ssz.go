@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/attestantio/go-eth2-client/spec/bellatrix"
-	"github.com/attestantio/go-eth2-client/spec/capella"
+	"github.com/AKorpusenko/genesis-go-eth2-client/spec/bellatrix"
+	"github.com/AKorpusenko/genesis-go-eth2-client/spec/capella"
 	ssz "github.com/ferranbt/fastssz"
 )
 
@@ -91,7 +91,7 @@ func (b SSZWithdrawals) GetTree() (*ssz.Node, error) {
 }
 
 func (b SSZWithdrawals) HashTreeRootWith(hh ssz.HashWalker) error {
-	// taken from https://github.com/attestantio/go-eth2-client/blob/bc14358487b6d32cb45feef14b170458abc5d14a/spec/capella/executionpayload_ssz.go#L332-L346
+	// taken from https://github.com/AKorpusenko/genesis-go-eth2-client/blob/bc14358487b6d32cb45feef14b170458abc5d14a/spec/capella/executionpayload_ssz.go#L332-L346
 	subIndx := hh.Index()
 	num := uint64(len(b))
 	if num > 16 {

@@ -3,7 +3,7 @@ package qbft_test
 import (
 	"testing"
 
-	spec "github.com/attestantio/go-eth2-client/spec/phase0"
+	spec "github.com/AKorpusenko/genesis-go-eth2-client/spec/phase0"
 	"github.com/herumi/bls-eth-go-binary/bls"
 	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
 	"github.com/ssvlabs/ssv-spec-pre-cc/types"

@@ -2,7 +2,8 @@ package consensus
 
 import (
 	"fmt"
-	"github.com/attestantio/go-eth2-client/spec"
+
+	"github.com/AKorpusenko/genesis-go-eth2-client/spec"
 	"github.com/herumi/bls-eth-go-binary/bls"
 	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
 

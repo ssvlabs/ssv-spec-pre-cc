@@ -1,8 +1,8 @@
 package valcheckattestations
 
 import (
-	goEthSpec "github.com/attestantio/go-eth2-client/spec"
-	spec "github.com/attestantio/go-eth2-client/spec/phase0"
+	goEthSpec "github.com/AKorpusenko/genesis-go-eth2-client/spec"
+	spec "github.com/AKorpusenko/genesis-go-eth2-client/spec/phase0"
 	"github.com/ssvlabs/ssv-spec-pre-cc/ssv/spectest/tests"
 	"github.com/ssvlabs/ssv-spec-pre-cc/ssv/spectest/tests/valcheck"
 	"github.com/ssvlabs/ssv-spec-pre-cc/types"
