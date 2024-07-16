@@ -15,7 +15,7 @@ import (
 	ssz "github.com/ferranbt/fastssz"
 	"github.com/herumi/bls-eth-go-binary/bls"
 	"github.com/pkg/errors"
-	"github.com/ssvlabs/ssv-spec/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 type testingKeyManager struct {

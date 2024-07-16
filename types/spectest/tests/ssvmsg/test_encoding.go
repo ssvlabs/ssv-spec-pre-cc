@@ -4,8 +4,8 @@ import (
 	reflect2 "reflect"
 	"testing"
 
-	"github.com/ssvlabs/ssv-spec/types"
-	comparable2 "github.com/ssvlabs/ssv-spec/types/testingutils/comparable"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
+	comparable2 "github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils/comparable"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,8 +5,8 @@ import (
 
 	"github.com/attestantio/go-eth2-client/spec"
 
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils"
 )
 
 // VersionedBlockUnknownVersion tests a valid consensus data with unknown block

@@ -6,9 +6,9 @@ import (
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/pkg/errors"
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/ssv"
-	"github.com/ssvlabs/ssv-spec/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 // MsgValidatorFunc represents a message validator

@@ -3,8 +3,8 @@ package ssv
 import (
 	"github.com/attestantio/go-eth2-client/spec/phase0"
 	"github.com/pkg/errors"
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 // correctQBFTState returns true if QBFT controller state requires pre-consensus justification

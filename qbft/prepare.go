@@ -4,7 +4,7 @@ import (
 	"bytes"
 
 	"github.com/pkg/errors"
-	"github.com/ssvlabs/ssv-spec/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 // uponPrepare process prepare message

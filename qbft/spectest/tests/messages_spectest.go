@@ -3,7 +3,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/ssvlabs/ssv-spec/qbft"
+	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
 	"github.com/stretchr/testify/require"
 )
 

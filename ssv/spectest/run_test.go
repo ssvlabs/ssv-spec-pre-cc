@@ -12,15 +12,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ssvlabs/ssv-spec/qbft"
-	"github.com/ssvlabs/ssv-spec/ssv"
-	tests2 "github.com/ssvlabs/ssv-spec/ssv/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/ssv/spectest/tests/partialsigcontainer"
-	"github.com/ssvlabs/ssv-spec/ssv/spectest/tests/runner/duties/newduty"
-	"github.com/ssvlabs/ssv-spec/ssv/spectest/tests/runner/duties/synccommitteeaggregator"
-	"github.com/ssvlabs/ssv-spec/ssv/spectest/tests/valcheck"
-	"github.com/ssvlabs/ssv-spec/types"
-	"github.com/ssvlabs/ssv-spec/types/testingutils"
+	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv"
+	tests2 "github.com/ssvlabs/ssv-spec-pre-cc/ssv/spectest/tests"
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv/spectest/tests/partialsigcontainer"
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv/spectest/tests/runner/duties/newduty"
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv/spectest/tests/runner/duties/synccommitteeaggregator"
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv/spectest/tests/valcheck"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils"
 )
 
 func TestAll(t *testing.T) {
