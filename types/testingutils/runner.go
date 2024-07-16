@@ -3,9 +3,9 @@ package testingutils
 import (
 	"github.com/attestantio/go-eth2-client/spec/phase0"
 
-	"github.com/bloxapp/ssv-spec/qbft"
-	"github.com/bloxapp/ssv-spec/ssv"
-	"github.com/bloxapp/ssv-spec/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/qbft"
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 var TestingHighestDecidedSlot = phase0.Slot(0)

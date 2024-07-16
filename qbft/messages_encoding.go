@@ -4,7 +4,7 @@
 package qbft
 
 import (
-	"github.com/bloxapp/ssv-spec/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 	ssz "github.com/ferranbt/fastssz"
 )
 
