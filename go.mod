@@ -1,4 +1,4 @@
-module github.com/ssvlabs/ssv-spec
+module github.com/ssvlabs/ssv-spec-pre-cc
 
 go 1.20
 
