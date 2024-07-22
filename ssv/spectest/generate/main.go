@@ -11,11 +11,11 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/ssvlabs/ssv-spec/ssv/spectest/tests"
-	"github.com/ssvlabs/ssv-spec/types"
-	comparable2 "github.com/ssvlabs/ssv-spec/types/testingutils/comparable"
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv/spectest/tests"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
+	comparable2 "github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils/comparable"
 
-	"github.com/ssvlabs/ssv-spec/ssv/spectest"
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv/spectest"
 )
 
 //go:generate go run main.go

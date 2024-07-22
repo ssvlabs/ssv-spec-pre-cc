@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ssvlabs/ssv-spec/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 type MultiMsgProcessingSpecTest struct {

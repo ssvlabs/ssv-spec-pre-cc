@@ -1,8 +1,8 @@
 package testingutils
 
 import (
-	"github.com/ssvlabs/ssv-spec/ssv"
-	"github.com/ssvlabs/ssv-spec/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 var BaseValidator = func(keySet *TestKeySet) *ssv.Validator {

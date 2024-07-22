@@ -3,7 +3,7 @@ package testingutils
 import (
 	"crypto/rsa"
 
-	"github.com/ssvlabs/ssv-spec/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
 )
 
 type TestingNetwork struct {
