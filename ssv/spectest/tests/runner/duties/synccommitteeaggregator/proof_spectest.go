@@ -2,16 +2,17 @@ package synccommitteeaggregator
 
 import (
 	"encoding/hex"
-	"github.com/bloxapp/ssv-spec/ssv"
-	"github.com/bloxapp/ssv-spec/types/testingutils/comparable"
 	"os"
 	"reflect"
 	"testing"
 
+	"github.com/ssvlabs/ssv-spec-pre-cc/ssv"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils/comparable"
+
 	"github.com/stretchr/testify/require"
 
-	"github.com/bloxapp/ssv-spec/types"
-	"github.com/bloxapp/ssv-spec/types/testingutils"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types"
+	"github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils"
 )
 
 type SyncCommitteeAggregatorProofSpecTest struct {

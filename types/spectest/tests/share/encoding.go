@@ -1,6 +1,6 @@
 package share
 
-import "github.com/bloxapp/ssv-spec/types/testingutils"
+import "github.com/ssvlabs/ssv-spec-pre-cc/types/testingutils"
 
 // Encoding tests encoding of a ssv message
 func Encoding() *EncodingTest {
